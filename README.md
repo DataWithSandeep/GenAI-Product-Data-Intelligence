@@ -37,27 +37,26 @@ This app enables semantic, cross-source Q&A using:
 
 ## 🗂️ Folder Structure
 
-```bash
-.
-├── rag_pipeline/
-│   ├── __init__.py
-│   ├── retriever.py         
-│   ├── generator.py   
-│   ├── chunker.py          
-│   ├── data_loader.py 
-│   ├── vectore_store.py     
-│   └── utils/
-│       └── logger.py         # Logging support
-├── data/
-│   ├── item_master.csv
-│   ├── item_classification.csv
-│   ├── item_prices.csv
-│   └── customer_reviews.csv
-├── offload/                  # (Optional) for model offloading
-├── app.py                    # Main Streamlit app
-└── README.md
+    ```bash
+        .
+        ├── rag_pipeline/
+        │   ├── __init__.py
+        │   ├── retriever.py         
+        │   ├── generator.py   
+        │   ├── chunker.py          
+        │   ├── data_loader.py 
+        │   ├── vectore_store.py     
+        │   └── utils/
+        │       └── logger.py         # Logging support
+        ├── data/
+        │   ├── item_master.csv
+        │   ├── item_classification.csv
+        │   ├── item_prices.csv
+        │   └── customer_reviews.csv
+        ├── offload/                  # (Optional) for model offloading
+        ├── app.py                    # Main Streamlit app
+        └── README.md
 
-⚙️ Installation
 
 ## ⚙️ Installation  
 
