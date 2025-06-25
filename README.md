@@ -65,7 +65,7 @@ This app enables semantic, cross-source Q&A using:
       git clone https://github.com/your-username/genai-product-rag.git
           cd genai-product-rag
 
-2. **Create & activates virtual environment: **
+2. **Create & activates virtual environment:**
     ```bash
     python -m venv venv
     # Windows
