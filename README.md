@@ -41,8 +41,11 @@ This app enables semantic, cross-source Q&A using:
 .
 ├── rag_pipeline/
 │   ├── __init__.py
-│   ├── retriever.py          # Embedding + retrieval from vector DB
-│   ├── generator.py          # Prompt building + local LLM response
+│   ├── retriever.py         
+│   ├── generator.py   
+│   ├── chunker.py          
+│   ├── data_loader.py 
+│   ├── vectore_store.py     
 │   └── utils/
 │       └── logger.py         # Logging support
 ├── data/
@@ -56,22 +59,28 @@ This app enables semantic, cross-source Q&A using:
 
 ⚙️ Installation
 
-- Clone the repository
+## ⚙️ Installation  
 
-`git clone https://github.com/your-username/genai-product-rag.git`
-`cd genai-product-rag`
+1. **Clone the repository:**  
+   ```bash
+      git clone https://github.com/your-username/genai-product-rag.git
+          cd genai-product-rag
 
-- Create & activates virtual environment
-`python -m venv venv``
-# Windows
-`venv\Scripts\activate`
-# macOS/Linux
-`source venv/bin/activate`
+2. **Create & activates virtual environment: **
+    ```bash
+    python -m venv venv
+    # Windows
+    venv\Scripts\activate
+    # macOS/Linux
+    source venv/bin/activate
 
--'Installs dependencies'
-pip install -r requirements.txt
 
-- Run the Streamlit app
+3. **Install dependencies:**
+    ```bash
+      pip install -r requirements.txt
+      
+4. **Run the Streamlit app:**
+   ```bash
+      streamlit run app.py 
 
-`streamlit run app.py`
 
