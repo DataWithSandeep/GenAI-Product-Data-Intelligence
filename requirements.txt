@@ -1,0 +1,10 @@
+# requirements.txt
+
+pandas
+numpy
+sentence-transformers
+scikit-learn     # Often required when saving/loading FAISS
+streamlit        # For UI later
+faiss-cpu        # Will be added in next step
+transformers
+torch
